@@ -1,0 +1,75 @@
+/*8*********************** footer *********************** */
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2d2d2d;
+    color: white;
+  }
+  
+  .footer_container {
+    margin: auto;
+    margin-left: auto;
+    padding: 35px 10px 20px 120px;
+  }
+  
+  .footer-inner {
+    display: grid;
+    grid-gap: 5px 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "a1 a2 a3 a4"
+    "a1 a5 a6 a7"
+    "a8 a9 a10 a7";
+  }
+  
+  .inner-footer {
+    text-transform: none;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inner-footer .programming{
+    display: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .inner-footer .item{ 
+    display: inline-block;
+    background-color: #161616;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  
+  .inner-footer a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  /* desktop footer */
+  .inner-footer .a1 {
+     grid-area: a1;
+  }
+  .inner-footer .a2 {
+    grid-area: a2;
+  }
+  .inner-footer .a3 {
+    grid-area: a3;
+  }
+  .inner-footer .a4 {
+    grid-area: a4;
+  }
+  .inner-footer .a5 {
+    grid-area: a5;
+  }
+  

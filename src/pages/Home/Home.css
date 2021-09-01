@@ -1,0 +1,272 @@
+/* //////////////////    banner   ////////////// */
+.campaign_banner {
+   margin-top: 100px;
+    background-image: url('https://s3-ap-south-1.amazonaws.com/trainings-uploads/campaigns/year_specific/banner-1920.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+/* banner content section */
+.campaign_content {
+  padding-top: 50px;
+  padding-left: 250px;
+}
+
+.campaign_content h1, h2, p {
+  color: white;
+  padding: 5px;
+}
+
+.campaign_content h2 {
+  font-size: 25px;
+  border-bottom: 1px solid #fff;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.campaign_content h1 {
+  font-size: 35px;
+}
+
+.campaign_content p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 780px) {
+  .campaign_content {
+    padding-left: 20px;
+    padding-right: 10px;
+
+  }
+
+  .campaign_content h2 {
+    font-size: 21px;
+  }
+}
+
+/* **********************   heading   ************************** */
+
+.heading {
+  font-size: 28px;
+  text-align: center;
+  color: #666666;
+  margin: 50px 15px 0px 15px;
+  font-family: 'proxima-semibold';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* course container */
+.course_container {
+  background: linear-gradient(145deg, #d0d1d2, #f7f8f9);
+  display: flex;
+  flex-direction: row;
+  margin: 20px 80px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 780px) {
+
+  .course_container {
+    margin: 50px 5px;
+  }
+  
+}
+
+/* *************************** Specialization course container ********************************** */
+
+/* specialization section  */
+.specialization_courses {
+  margin: 50px auto;
+  padding: 36px 15px;
+  background-color: #F8F8F8;
+  text-align: center;
+}
+
+/* specialization card */
+.specialization_card {
+  margin: 50px 400px 50px 400px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(145deg, #dfdfdf, #ffffff);
+  box-shadow:  7px 7px 14px #c4c4c4, 
+             -7px -7px 14px #ffffff;
+}
+
+@media only screen and (max-width: 780px) {
+  .specialization_card {
+    margin: 50px 20px 50px 20px;
+    flex-wrap: wrap;
+  }
+
+  .image_holder {
+    flex: unset;
+    height: 200px;
+    width: 100%;
+  }
+
+  .details_box {
+    flex: unset;
+  }
+
+  .content_box {
+    padding: 20px 30px 20px 30px;
+  }
+}
+
+/* image section */
+.image_holder {
+  flex: 2;
+  background-image: url('https://trainings.internshala.com/static/images/signup/specialization/machine-learning/banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.details_box {
+  flex: 3;
+  background-color: white;
+  position: relative;
+}
+
+.content_box {
+  padding: 35px 35px 20px 45px;
+  text-align: left;
+}
+
+.training_name {
+  color: #707070;
+  font-size: 23px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.training_info {
+  color: #707070;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.gradient_horizontal_rule {
+  height: 4px;
+  margin-bottom: 10px;
+  background: transparent linear-gradient(-90deg, #36D1DC 0%, #5B86E5 100%) 0% 0% no-repeat padding-box;
+}
+
+.duration {
+  color: #707070;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+label {
+  margin-bottom: 2px;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.light_rule {
+  border-color: rgba(112,112,112,0.16);
+  margin: 15px 0px;
+}
+
+.training-list-title {
+  color: #707070;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400; 
+}
+
+.training-list {
+  padding-left: 5px;
+}
+
+.list-numbering-container {
+  color: white;
+  min-width: 20px;
+  max-width: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;    
+}
+
+.ribbon_message {
+  padding: 8px 40px 8px 25px;
+  background-color: #ECECEC;
+  position: relative;
+  left: 15px;
+  color: #707070;
+  font-size: 14px;
+  margin-bottom: 30px;
+  border-top-right-radius: 2px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.know-more-box {
+  text-align: center;
+  padding-bottom: 35px;
+  background-color: white;
+}
+
+.know-more-box .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  vertical-align: middle;
+}
+
+.know-more-cta {
+  background: linear-gradient(145deg, #106acb, #137ef2);
+box-shadow: inset 7px 7px 1px #1171d9, 
+            inset -7px -7px 1px #137beb;
+  /* background: linear-gradient(145deg, #106acb, #137ef2); */
+  color: white;
+  padding: 10px 50px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 780px) {
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

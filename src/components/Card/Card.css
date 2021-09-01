@@ -1,0 +1,107 @@
+a {
+   text-decoration: none;
+}
+
+.course_cards {
+    border-radius: 5px;
+background: linear-gradient(145deg, #d0d1d2, #f7f8f9);
+box-shadow:  5px 5px 10px #8f9090, 
+             -5px -5px 10px #ffffff;
+    margin: 50px 70px 20px 100px;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+.course_cards img{
+   width: 100%;
+   height: 120px;
+   margin-top: 30px;
+}
+
+.course-title {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.course-caption {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.course_cards hr {
+    color: #f0e8e8;
+}
+
+.course-block-footer-treatment {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.duration-view {
+  width: 49%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  color: #888888;
+  border-right: 1px solid #cccccc;  
+  text-align: center;
+  font-size: 14px;
+  transition: 0.1s;     
+
+}
+
+.know-more-button {
+    width: 49%;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    color: #1295c9;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0px;
+    background: #fff;
+    box-shadow:  -5px -5px 10px #bababa, 
+                 5px 5px 10px #ffffff;border-radius: 0px;
+                 background: linear-gradient(315deg, #ffffff, #e6e6e6);
+                 box-shadow:  -5px -5px 10px #bababa, 
+                              5px 5px 10px #ffffff;
+}
+
+.right_icon{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0, 0);
+    padding-left: 5px;
+    font-size: 10px;
+    color: #1295c9;
+}
+
+@media only screen and (max-width: 780px) {
+
+    .course_cards {
+
+        margin: 40px 30px 20px 30px;
+
+    }
+
+}
+
+
